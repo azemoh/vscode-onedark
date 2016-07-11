@@ -1,4 +1,4 @@
-# One Dark Thema
+# One Dark Theme
 One dark theme for Visual Studio Code, based on Atom's One Dark
 
 ## Install
