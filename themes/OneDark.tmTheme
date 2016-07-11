@@ -72,6 +72,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Embeded String</string>
+			<key>scope</key>
+			<string>string.embedded.begin, string.embedded.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e06c75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Number</string>
 			<key>scope</key>
 			<string>constant.numeric</string>
@@ -119,7 +130,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.readwrite</string>
+			<string>variable.readwrite, variable.block</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -169,7 +180,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#61afef</string>
+				<string>#e5c07b</string>
 			</dict>
 		</dict>
 		<dict>
