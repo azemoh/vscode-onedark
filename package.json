@@ -1,6 +1,6 @@
 {
 	"name": "theme-onedark",
-	"displayName": "One Dark Improved Theme",
+	"displayName": "One Dark Theme Improved",
 	"description": "One Dark Theme based on Atom One Dark Theme",
 	"version": "0.1.0",
 	"publisher": "azemoh",
@@ -16,7 +16,7 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "One Dark Improved",
+				"label": "One Dark Theme Improved",
 				"uiTheme": "vs-dark",
 				"path": "./themes/OneDark.tmTheme"
 			}
