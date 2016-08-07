@@ -11,6 +11,13 @@ ext install theme-onedark
 ## Screenshot
 Screenshot of Ruby and Less
 
-![Theme Screenshot](screenshot.png)
+![Theme Screenshot](screenshot-v0.2.2.png)
 
 Available at [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/azemoh.theme-onedark)
+
+
+## Changelog
+
+#### v 0.2.2
+
+  - Syntax highlight for embeded string.
