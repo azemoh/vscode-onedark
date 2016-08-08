@@ -12,7 +12,7 @@ ext install theme-onedark
 ```
 
 ## Screenshot
-Screenshot of Ruby and Less
+Screenshot of Ruby and JavaScript
 
 ![Theme Screenshot](screenshot-v0.2.2.png)
 
