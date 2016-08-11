@@ -21,6 +21,10 @@ Available at [Visual Studio Code Marketplace](https://marketplace.visualstudio.c
 
 ## Changelog
 
-#### v 0.2.2
+#### v0.2.3
 
   - Syntax highlight for embeded string.
+
+#### v0.2.4
+
+  - Syntax highlight for Logical operators (and, or).
