@@ -1,10 +1,10 @@
 {
     "name": "theme-onedark",
-    "displayName": "One Dark Theme Improved",
-    "description": "One Dark Theme based on Atom One Dark Theme",
-    "version": "0.2.5",
+    "displayName": "One Dark Theme",
+    "description": "One Dark Theme based on Atom's One Dark Theme",
+    "version": "0.2.6",
     "publisher": "azemoh",
-    "author": "http://azemoh.com",
+    "author": "Joshua Azemoh <joshazemoh@gmail.com> (http://azemoh.com)",
     "license": "MIT",
     "engines": {
         "vscode": "^0.10.1"
@@ -16,18 +16,23 @@
     "contributes": {
         "themes": [
             {
-                "label": "One Dark Theme Improved",
+                "label": "One Dark Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/OneDark.tmTheme"
             }
         ]
     },
     "bugs": {
-        "url": "https://github.com/azemoh/vscode-theme-onedark/issues"
+        "url": "https://github.com/azemoh/vscode-onedark/issues"
     },
-    "homepage": "https://github.com/azemoh/vscode-theme-onedark/blob/master/README.md",
+    "homepage": "https://github.com/azemoh/vscode-onedark/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/azemoh/vscode-theme-onedark.git"
-    }
+        "url": "https://github.com/azemoh/vscode-onedark.git"
+    },
+    "keywords": [
+        "Vscode",
+        "Theme",
+        "Onedark"
+    ]
 }
