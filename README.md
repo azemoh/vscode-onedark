@@ -16,8 +16,7 @@ Screenshot of Ruby and JavaScript
 
 ![Theme Screenshot](screenshot-v0.2.2.png)
 
-Available at [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/azemoh.theme-onedark)
-
+If you like this checkout [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 
 ## Changelog
 
