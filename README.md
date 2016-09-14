@@ -27,3 +27,4 @@ If you like this checkout [One Monokai Theme](https://marketplace.visualstudio.c
 - Syntax highlight for built-in functions.
 - Syntax highlight for js "new" keyword.
 - Stylesheet string variable.
+- Stylesheet functions.
