@@ -28,3 +28,4 @@ If you like this checkout [One Monokai Theme](https://marketplace.visualstudio.c
 - Syntax highlight for js "new" keyword.
 - Stylesheet string variable.
 - Stylesheet functions.
+- Fix language variable highlight
