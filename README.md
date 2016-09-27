@@ -31,3 +31,4 @@ If you like this checkout [One Monokai Theme](https://marketplace.visualstudio.c
 - Fix language variable highlight
 - Support for Haml classes and IDs.
 - Fix find selection highlight.
+- Highlight support variables.
