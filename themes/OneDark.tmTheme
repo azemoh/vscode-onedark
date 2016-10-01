@@ -194,7 +194,7 @@
         <key>name</key>
         <string>Class name</string>
         <key>scope</key>
-        <string>entity.name.class, entity.name.module</string>
+        <string>entity.name.class, entity.name.module, storage.identifier, storage.type</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
