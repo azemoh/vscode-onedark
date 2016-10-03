@@ -87,7 +87,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#56b6c2</string>
+          <string>#abb2bf</string>
         </dict>
       </dict>
       <dict>
@@ -110,7 +110,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#56b6c2</string>
+          <string>#d19a66</string>
         </dict>
       </dict>
       <dict>
@@ -123,27 +123,37 @@
           <key>foreground</key>
           <string>#d19a66</string>
         </dict>
+      </dict><dict>
+        <key>name</key>
+        <string>User-defined constant</string>
+        <key>scope</key>
+        <string>constant.character.escape</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56b6c2</string>
+        </dict>
       </dict>
       <dict>
         <key>name</key>
         <string>Language Variable</string>
         <key>scope</key>
-        <string>variable.language</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#c678dd</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Variable</string>
-        <key>scope</key>
-        <string>variable.readwrite, variable.block</string>
+        <string>variable.language, variable.readwrite, variable.block, support.variable</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#e06c75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Support Variable property</string>
+        <key>scope</key>
+        <string>support.variable.property</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#d19a66</string>
         </dict>
       </dict>
       <dict>
@@ -159,13 +169,24 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Keyword</string>
+        <key>scope</key>
+        <string>keyword.special-method, keyword.require</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61afef</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Keyword Operator</string>
         <key>scope</key>
         <string>keyword.operator</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#abb2bf</string>
+          <string>#61afef</string>
         </dict>
       </dict>
       <dict>
@@ -187,7 +208,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e5c07b</string>
+          <string>#c678dd</string>
         </dict>
       </dict>
       <dict>
@@ -243,8 +264,6 @@
         <string>entity.name.function-call</string>
         <key>settings</key>
         <dict>
-          <key>foreground</key>
-          <string>#abb2bf</string>
         </dict>
       </dict>
       <dict>
@@ -299,7 +318,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#abb2bf</string>
+          <string>#56b6c2</string>
         </dict>
       </dict>
       <dict>
@@ -317,7 +336,7 @@
         <key>name</key>
         <string>Library class/type</string>
         <key>scope</key>
-        <string>support.type, support.class, support.variable</string>
+        <string>support.type, support.class</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -403,13 +422,13 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Library variable</string>
+        <string>Object variable</string>
         <key>scope</key>
-        <string>support.other.variable</string>
+        <string>other.variable.object</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string></string>
+          <key>foreground</key>
+          <string>#e06c75</string>
         </dict>
       </dict>
       <dict>

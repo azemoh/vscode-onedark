@@ -13,9 +13,9 @@ ext install theme-onedark
 ```
 
 ## Screenshot
-Screenshot of Ruby and JavaScript
+Screenshot of JavaScript and Java (JavaScript with [Atom Grammer][atom-grammer-url] enabled)
 
-![Theme Screenshot](screenshot-v0.2.2.png)
+![Theme Screenshot](screenshot-v0.3.0.png)
 
 If you like this checkout [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 
@@ -33,3 +33,9 @@ If you like this checkout [One Monokai Theme](https://marketplace.visualstudio.c
 - Fix find selection highlight.
 - Highlight support variables.
 - Improve Java Support
+
+#### v0.3.x
+- Improved JavaScript Support - use [Atom JS Grammer][atom-grammer-url] for best result.
+
+
+[atom-grammer-url]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar
