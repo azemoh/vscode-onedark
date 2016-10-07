@@ -186,7 +186,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#61afef</string>
+          <string>#56b6c2</string>
         </dict>
       </dict>
       <dict>
@@ -204,7 +204,7 @@
         <key>name</key>
         <string>Storage type</string>
         <key>scope</key>
-        <string>storage.type.function</string>
+        <string>storage.type.function, storage.type.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -336,7 +336,7 @@
         <key>name</key>
         <string>Library class/type</string>
         <key>scope</key>
-        <string>support.type, support.class</string>
+        <string>support.type, support.class, entity.name</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>

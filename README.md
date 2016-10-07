@@ -36,6 +36,7 @@ If you like this checkout [One Monokai Theme](https://marketplace.visualstudio.c
 
 #### v0.3.x
 - Improved JavaScript Support - use [Atom JS Grammer][atom-grammer-url] for best result.
+- Highlight for JS storege types and entity names.
 
 
 [atom-grammer-url]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar
