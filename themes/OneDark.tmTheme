@@ -21,6 +21,8 @@
           <string>#4b525b</string>
           <key>lineHighlight</key>
           <string>#2c323c</string>
+          <key>selection</key>
+          <string>#3e4451</string>
           <key>findHighlight</key>
           <string>#FFE792</string>
           <key>findHighlightForeground</key>
@@ -48,7 +50,7 @@
         <key>name</key>
         <string>Comment</string>
         <key>scope</key>
-        <string>comment, string.comment</string>
+        <string>comment</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -87,7 +89,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#abb2bf</string>
+          <string>#56b6c2</string>
         </dict>
       </dict>
       <dict>
@@ -123,44 +125,12 @@
           <key>foreground</key>
           <string>#d19a66</string>
         </dict>
-      </dict><dict>
-        <key>name</key>
-        <string>User-defined constant</string>
-        <key>scope</key>
-        <string>constant.character.escape</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#56b6c2</string>
-        </dict>
       </dict>
       <dict>
         <key>name</key>
         <string>Language Variable</string>
         <key>scope</key>
-        <string>variable.language, variable.readwrite, variable.block, support.variable</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#e06c75</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Support Variable property</string>
-        <key>scope</key>
-        <string>support.variable.property</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#d19a66</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Keyword</string>
-        <key>scope</key>
-        <string>keyword, keyword.operator.logical, keyword.operator.constructor</string>
+        <string>variable.language</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -169,13 +139,46 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Keyword</string>
+        <string>Variable</string>
         <key>scope</key>
-        <string>keyword.special-method, keyword.require</string>
+        <string>variable.readwrite, variable.block, variable.support</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#61afef</string>
+          <string>#e06c75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Variable</string>
+        <key>scope</key>
+        <string>variable.readwrite.var-single-variable.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#d19a66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Variable</string>
+        <key>scope</key>
+        <string>variable.readwrite.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#abb2bf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keyword</string>
+        <key>scope</key>
+        <string>keyword, keyword.operator.logical, keyword.operator.constructor, keyword.operator.new</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#c678dd</string>
         </dict>
       </dict>
       <dict>
@@ -186,7 +189,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#56b6c2</string>
+          <string>#61afef</string>
         </dict>
       </dict>
       <dict>
@@ -196,6 +199,8 @@
         <string>storage</string>
         <key>settings</key>
         <dict>
+          <key>fontStyle</key>
+          <string></string>
           <key>foreground</key>
           <string>#c678dd</string>
         </dict>
@@ -204,7 +209,7 @@
         <key>name</key>
         <string>Storage type</string>
         <key>scope</key>
-        <string>storage.type.function, storage.type.js</string>
+        <string>storage.type.function</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -215,7 +220,7 @@
         <key>name</key>
         <string>Class name</string>
         <key>scope</key>
-        <string>entity.name.class, entity.name.module, storage.identifier, storage.type</string>
+        <string>entity.name.class, entity.name.module, entity.name.type</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -240,6 +245,8 @@
         <string>entity.name.function</string>
         <key>settings</key>
         <dict>
+          <key>fontStyle</key>
+          <string></string>
           <key>foreground</key>
           <string>#61afef</string>
         </dict>
@@ -264,6 +271,10 @@
         <string>entity.name.function-call</string>
         <key>settings</key>
         <dict>
+          <key>fontStyle</key>
+          <string></string>
+          <key>foreground</key>
+          <string>#abb2bf</string>
         </dict>
       </dict>
       <dict>
@@ -273,6 +284,8 @@
         <string>function.support.builtin, function.support.core</string>
         <key>settings</key>
         <dict>
+          <key>fontStyle</key>
+          <string></string>
           <key>foreground</key>
           <string>#56b6c2</string>
         </dict>
@@ -284,19 +297,10 @@
         <string>entity.name.tag</string>
         <key>settings</key>
         <dict>
+          <key>fontStyle</key>
+          <string></string>
           <key>foreground</key>
           <string>#e06c75</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Tag Class and ID</string>
-        <key>scope</key>
-        <string>entity.name.tag.class, entity.name.tag.id</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#98c379</string>
         </dict>
       </dict>
       <dict>
@@ -306,6 +310,8 @@
         <string>entity.other.attribute-name</string>
         <key>settings</key>
         <dict>
+          <key>fontStyle</key>
+          <string></string>
           <key>foreground</key>
           <string>#d19a66</string>
         </dict>
@@ -328,6 +334,8 @@
         <string>support.constant</string>
         <key>settings</key>
         <dict>
+          <key>fontStyle</key>
+          <string></string>
           <key>foreground</key>
           <string>#e5c07b</string>
         </dict>
@@ -336,11 +344,22 @@
         <key>name</key>
         <string>Library class/type</string>
         <key>scope</key>
-        <string>support.type, support.class, entity.name</string>
+        <string>support.class</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#e5c07b</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Library type</string>
+        <key>scope</key>
+        <string>support.type</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e06c75</string>
         </dict>
       </dict>
       <dict>
@@ -422,9 +441,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Object variable</string>
+        <string>Other variable</string>
         <key>scope</key>
-        <string>other.variable.object</string>
+        <string>variable.other.property, variable.other.object, variable.other.block</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -440,6 +459,8 @@
         <dict>
           <key>background</key>
           <string>#c678dd</string>
+          <key>fontStyle</key>
+          <string></string>
           <key>foreground</key>
           <string>#F8F8F0</string>
         </dict>

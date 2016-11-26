@@ -13,9 +13,9 @@ ext install theme-onedark
 ```
 
 ## Screenshot
-Screenshot of JavaScript and Java (JavaScript with [Atom Grammer][atom-grammer-url] enabled)
+Screenshot of Ruby and JavaScript
 
-![Theme Screenshot](screenshot-v0.3.0.png)
+![Theme Screenshot](screenshot-v0.4.0.png)
 
 If you like this checkout [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 
