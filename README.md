@@ -15,17 +15,11 @@ ext install theme-onedark
 ## Screenshot
 Screenshot of Ruby and JavaScript
 
-![Theme Screenshot](screenshot-v0.2.2.png)
+![Theme Screenshot](screenshot-v0.4.0.png)
 
 If you like this checkout [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 
 ## Changelog
+You can take a look at the change log [here](https://github.com/azemoh/vscode-onedark/blob/master/CHANGELOG.md)
 
-#### v0.2.x
-- Syntax highlight for embeded string.
-- Syntax highlight for Logical operators (and, or).
-- Syntax highlight for built-in functions.
-- Syntax highlight for js "new" keyword.
-- Stylesheet string variable.
-- Stylesheet functions.
-- Fix language variable highlight
+[atom-grammer-url]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar
