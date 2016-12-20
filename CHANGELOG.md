@@ -1,6 +1,7 @@
 ## Changelog
 
 #### v0.4.x
+- Highlight for Pug/Jade imports
 - Distinguish selected text from highligted matching text.
 - Start migration to use VSCode default JS grammer. - Remove Atom JS Grammer.
 

@@ -450,6 +450,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Pug/Jade Import</string>
+        <key>scope</key>
+        <string>jade.import.variable, pug.import.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#e06c75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Invalid</string>
         <key>scope</key>
         <string>invalid</string>
