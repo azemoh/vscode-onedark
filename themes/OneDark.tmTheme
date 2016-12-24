@@ -59,6 +59,19 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Comment</string>
+        <key>scope</key>
+        <string>html.doctype</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#5c6370</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>String</string>
         <key>scope</key>
         <string>string</string>
@@ -238,6 +251,32 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Tag name</string>
+        <key>scope</key>
+        <string>entity.name.tag</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string></string>
+          <key>foreground</key>
+          <string>#e06c75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Tag attribute</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string></string>
+          <key>foreground</key>
+          <string>#d19a66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Function name</string>
         <key>scope</key>
         <string>entity.name.function</string>
@@ -286,32 +325,6 @@
           <string></string>
           <key>foreground</key>
           <string>#56b6c2</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Tag name</string>
-        <key>scope</key>
-        <string>entity.name.tag</string>
-        <key>settings</key>
-        <dict>
-          <key>fontStyle</key>
-          <string></string>
-          <key>foreground</key>
-          <string>#e06c75</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Tag attribute</string>
-        <key>scope</key>
-        <string>entity.other.attribute-name</string>
-        <key>settings</key>
-        <dict>
-          <key>fontStyle</key>
-          <string></string>
-          <key>foreground</key>
-          <string>#d19a66</string>
         </dict>
       </dict>
       <dict>
