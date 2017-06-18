@@ -1,5 +1,8 @@
 ## Changelog
 
+### v0.5.x
+  - Convert to json syntax theme.
+
 #### v0.4.x
 - Fix Jade/Pug functions and mixins.
 - Highlight for Pug/Jade imports.

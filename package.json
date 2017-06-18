@@ -2,23 +2,23 @@
     "name": "theme-onedark",
     "displayName": "One Dark Theme",
     "description": "One Dark Theme based on Atom's One Dark Theme",
-    "version": "0.4.3",
+    "version": "0.5.0",
     "publisher": "azemoh",
     "author": "Joshua Azemoh <joshazemoh@gmail.com> (http://azemoh.com)",
     "license": "MIT",
+    "icon": "icon.svg",
     "engines": {
-        "vscode": "^0.10.1"
+        "vscode": "^1.13.0"
     },
     "categories": [
         "Themes"
     ],
-    "icon": "icon.svg",
     "contributes": {
         "themes": [
             {
-                "label": "One Dark",
+                "label": "One Dark Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/OneDark.tmTheme"
+                "path": "./themes/OneDarkTheme-color-theme.json"
             }
         ]
     },
