@@ -2,6 +2,7 @@
 
 ### v0.5.x
   - Convert to json syntax theme.
+  - Workbench themeing
 
 #### v0.4.x
 - Fix Jade/Pug functions and mixins.
