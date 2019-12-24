@@ -19,6 +19,12 @@ Screenshot of Ruby and JavaScript
 
 If you like this checkout [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 
+## Sponsors
+
+<p><a title="Try CodeStream" href="https://sponsorlink.codestream.com/?utm_source=vscmarket&amp;utm_campaign=onedarktheme&amp;utm_medium=banner"><img src="https://alt-images.codestream.com/codestream_logo_onedarktheme.png"></a></br>
+Discussing code is now as easy as highlighting a block and typing a comment right from your IDE. Take the pain out of code reviews and improve code quality.<br> <a title="Try CodeStream" href="https://sponsorlink.codestream.com/?utm_source=vscmarket&amp;utm_campaign=onedarktheme&amp;utm_medium=banner">Try it free</a></p>
+
+
 ## Changelog
 You can take a look at the change log [here](https://github.com/azemoh/vscode-onedark/blob/master/CHANGELOG.md)
 
